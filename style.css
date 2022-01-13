@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+.header {
+  background: #34751f;
+  border-bottom: 2px solid #4fac2e;
+  padding: 10px;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 15px;
+}
+
+.header-logo p {
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.header-search input {
+  min-width: 350px;
+  padding: 15px;
+  border-radius: 50px;
+  color: #969696;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.header-search input:focus {
+  outline: none;
+  color: #000;
+  text-align: center;
+  border: 2px solid #34751f;
+  font-weight: 700;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-links ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-links ul li {
+  padding: 10px;
+
+  background: #4fac2e;
+  border-radius: 50px;
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-links ul li:hover {
+  background: #fff;
+  color: #4fac2e;
+  font-weight: 700;
+}
+
+.main {
+  height: 600px;
+  max-width: 960px;
+  margin: 0 auto;
+  border-left: 2px solid #cfcfcf;
+  border-right: 2px solid #cfcfcf;
+  background: #fff;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer {
+  background: #4fac2e;
+  height: 300px;
+  padding: 25px;
+  border-top: 5px solid #34751f;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+
+.footer-topo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 50px;
+}
+
+.footer .footer-logo p {
+  font-size: 100px;
+  line-height: 60px;
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.footer-link ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 5px;
+}
+
+.footer-link ul li {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50px;
+  min-width: 100px;
+}
+
+.footer-link ul li:hover {
+  background: #fff;
+  color: #427e2f;
+  font-weight: 700;
+  margin-left: 5px;
+  transition: .5s;
+}
